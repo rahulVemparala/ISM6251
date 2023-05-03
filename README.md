@@ -6,6 +6,7 @@
 - [Course Work](#courses)
 - [Libraries Used](#technologies-used)
 - [Models Implemented](#models)
+- [Projects](#projects)
 - [Future Projects](#for-the-future)
 - [Acknowledgments](#project-maintainers)
 
@@ -22,7 +23,7 @@ Following courses have substantially helped me acquire profound understanding of
 3. Big Data for Business: Aided in Understanding the trade-offs between the Scaling resources horizontally and vertically.
 
 
-## Libraries Used: 
+# Libraries Used: 
 1. **ML Libraries used**: Sklearn, imblearn, scikit, MLlib.
 2. **Neural Network libraries**: Tensorflow, keras
 3. **Text analytics**: transformers, huggingface
@@ -30,20 +31,20 @@ Following courses have substantially helped me acquire profound understanding of
 5. **Other modules**: Pandas, numpy, matplotlib, Seaborn
 
 
-## Models Implemented:
+# Models Implemented:
 ## Regression Models:
 1. Linear Regression: for continous target
 2. Multi variate Regression : more than one features 
 3. Polynomial regression : regression of Higher order
 
-### Classification Models:
+## Classification Models:
 1. K-nearest neigbours or K-nn: Binary and Multi class target, can also be applied for regression problems.
 2. Decision Tree: Binary or Multi class target
 3. Logistic Regression: Binary or Multi class target
 4. SVM (Support Vector Machines): Better suited for non-linear relation between target and features. 
 5. ANN (Artificial Neural networks) : binary, multiclass and regression problems
 
-### Ensembles:
+## Ensembles:
 #### Bagging:
 1. Random Forest
 
@@ -53,7 +54,7 @@ Following courses have substantially helped me acquire profound understanding of
 3. AdaBoost
 
 
-### Performance tuning:
+## Performance tuning:
 
 Fine-tuning models involves adjusting model hyperparameters to find the optimal combination for the specific business problem. This process is crucial for improving model performance and ensuring the model is best suited for the business needs.
 The following are the two techniques implemented for improving the performace and find the best suitable model respectively.
@@ -74,52 +75,51 @@ The following are the two techniques implemented for improving the performace an
 2. **LSTM** ( Long short term memory) : Preserve long and short term memory based on gate operations
 3. **GRU**(Gated Recurrent Unit): simplified version of LSTM
 
-## Deep Neural Networks:
+### Deep Neural Networks:
 Customizable hidden layers, activation functions. and initializers.
 1. **Convolutional networks** :image segmentation
 2. **Auto Encoder-decoder** : Image denoising, image compression, anomaly detection.
 
 
-## Projects:
+# Projects:
 
-### Breast Cancer Detection: 
-#### Business Problem:
+## Breast Cancer Detection: 
+### Business Problem:
 The increasing cases for TNBC cancer which is an unpredictable varient of breast cancer, there is a difintive need to understand the initial biposy reports and to forcast of potential death due to cancer.
-#### Models implemented: 
+### Models implemented: 
 k-nn, Decision Tree and Ensembles like (Random Boost, Gradient Boost).
-#### Aim: 
+### Aim: 
 Model focus on minimizing FN error which can incur a substantial cost.
-#### Outcome:
+### Outcome:
 We produced a substantially accurate model and improved Sensitivitly(Recall) of the model by 1% over the previous implementation.
 
 
 
 
-### Chess Game Outcome Prediction Model:
-#### Business Problem:
+## Chess Game Outcome Prediction Model:
+### Business Problem:
 **Background information**: Undoubtedly number one platform for online chess players is chess.com known for its wide array of features for studying different gameplays and strategies.
 One noticable feature if the move detector which tells if you made a bad move or not. which is quite handy for a beginner level game play.
 **Problem:** I think that there is much more need for predicting if a player could win and if so in how many moves will be a game changer for beginner play or it could be intresting to see how seasoned players would perform with this new feature.
 My business problem is one such case, with the limited access to chess data, i would only consider one famous gameplays
 which is called king-rook-king endgame, we need a model that would predict the number of moves its gonna take to win against black based on the current move.
-#### Models implemented: 
+### Models implemented: 
 SVM, Decision Tree and Ensembles like (Random Boost, Gradient Boost) and artificial Neural network.
-#### Aim: 
+### Aim: 
 How many moves needed to checkmate black ,or will it end in a draw
-#### Outcome:
+### Outcome:
 With trying various models, the neural network has produced a fairly accurate model with good f1-score(commanly the important metric for multiclass problems)
 
 
 
-### Microsoft Stock price prediction:
-#### Business Problem:
-The stock data is a time series data with stock data like open, high,low,close etc. 
-
-#### Models implemented: 
+## Microsoft Stock price prediction:
+### Business Problem:
+The stock data is a time series data with stock data like open, high,low,close etc.
+### Models implemented: 
 SVM, Decision Tree and Ensembles like (Random Boost, Gradient Boost) and artificial Neural network.
-#### Aim: 
+### Aim: 
 Obviously trying to predict the opening price for the next 7 or 8 days
-#### Outcome:
+### Outcome:
 The model I built is univariate, sequence predictor, using LSTM cell. I was able to predict the open stock price for the next week in future.
 
 
@@ -134,9 +134,9 @@ The model I built is univariate, sequence predictor, using LSTM cell. I was able
 I would like to express my deepest gratitude to Professor Timothy Smith for the invaluable guidance and support throughout my journey as a student of the Business Analytics and Information Systems program at the University of South Florida. Professor Tim's mentorship and teachings have played a significant role in shaping my skills and knowledge in the field of data science.
 
 ### Professor Contact Information
-1. [Email to](mailto:smith515@usf.edu)
+1. [Email](mailto:smith515@usf.edu)
 
 
 ## Contacts: 
-1. [Email Me @](mailto:rahulreddyvemparala@gmail.com)
+1. [Email](mailto:rahulreddyvemparala@gmail.com)
 2. [LinkedIn](https://linkedin.com/in/rahul-reddy-vemparala-11609924a)
